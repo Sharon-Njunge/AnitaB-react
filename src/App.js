@@ -1,16 +1,5 @@
-// import Login from "./Login"
-// import Users from "./Users";
 
-// const App= ()=>{
-//   return(
-//     <div>
-//     <Login/> 
-//     <Users/>
-//     </div>
-//   )
-// }
-
-import { Routes , Route, Link} from 'react-router-dom';
+import {Routes, Route, Link} from 'react-router-dom'
 import Login from "./Login";
 import Users from "./Users";
 
@@ -24,12 +13,12 @@ export const Introduction = () =>{
 const App = () =>{
   return(
     <div>
-     {/* <Login/>  */}
+      <Login/>  
     <h1>My app</h1>
     <nav>
       <Link to="/login">Login</Link>
     </nav>
-    {/* <Users/>  */}
+    <Users/>  
     <Routes>
       <Route path='/login' element={<Login />}/>
       <Route path='/users' element={<Users/>}/>
