@@ -1,6 +1,4 @@
 
-
-
 const UserCard = ({image, fullName, age,gender, email}) =>{
     return(
         <div>

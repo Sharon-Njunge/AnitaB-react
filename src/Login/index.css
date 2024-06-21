@@ -1,4 +1,4 @@
-form{
+/* form{
     width: 60%;
     border: solid 1px;
     padding: 10px;
@@ -16,6 +16,31 @@ button{
     padding: 10px 5px;
     background-color: rgb(59, 123, 59);
     color: #ffffff;
+    cursor: pointer;
+    width: 97%;
+} */
+
+
+form{
+    width: 60%;
+    border: solid 1px black;
+    padding: 10px;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+input{
+    padding: 12px 5px;
+    width: 95%;
+    border: solid 1px rgb(105, 103, 103);
+    border-radius: 5px;
+    margin: 2% 0;
+}
+button{
+    border: none;
+    border-radius: 5px;
+    padding: 10px 5px;
+    background-color: rgb(50, 123, 59);
+    color: white;
     cursor: pointer;
     width: 97%;
 }
